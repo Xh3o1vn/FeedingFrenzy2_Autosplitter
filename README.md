@@ -1,4 +1,4 @@
-# FeedingFrenzy2_Autosplitter
+# Feeding Frenzy 2 Autosplitter on PC
 
 AutoSplitter for Feeding Frenzy 2: Shipwreck Showdown.
 
