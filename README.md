@@ -1,7 +1,7 @@
 # FeedingFrenzy2_Autosplitter
 AutoSplitter for Feeding Frenzy 2.
 
----
+-
 
 ## Game Preparation
 
@@ -13,9 +13,9 @@ Make sure you have already downloaded Livesplit.
 
 Open the game, **then** open Livesplit. There are two ways to set Autosplitter.
 
-(1) Right-click **Edit Splits**, and type *Feeding Frenzy 2: Shipwreck Showdown* in **Game Name** (Must be the complete and correct game name),  after Autosplitter is identified, click Activate.
+* Right-click **Edit Splits**, and type *Feeding Frenzy 2: Shipwreck Showdown* in **Game Name** (Must be the complete and correct game name),  after Autosplitter is identified, click Activate.
 
-(2) Download the .asl file. Right-click **Layout Editor**, clike **+** on the left and select **Control** - **Scriptable Auto Splitter**, then double click **Scriptable Auto Splitter**, click **Browse** and select the .asl file you have downloaded.
+* Download the .asl file. Right-click **Layout Editor**, clike **+** on the left and select **Control** - **Scriptable Auto Splitter**, then double click **Scriptable Auto Splitter**, click **Browse** and select the .asl file you have downloaded.
 
 P.S. Only one of the two methods can be chosen, otherwise the segmentation may occur twice.
 
