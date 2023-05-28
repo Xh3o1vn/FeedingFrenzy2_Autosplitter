@@ -1,7 +1,6 @@
 # FeedingFrenzy2_Autosplitter
-AutoSplitter for Feeding Frenzy 2.
 
--
+AutoSplitter for Feeding Frenzy 2.
 
 ## Game Preparation
 
