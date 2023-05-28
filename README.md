@@ -3,11 +3,11 @@ AutoSplitter for Feeding Frenzy 2.
 
 ---
 
-Game Preparation: 
+## Game Preparation
 
 It's recommended to run Steam version of Feeding Frenzy 2. Other versions may not be compatible with the Autosplitter.
 
-Autosplitter Settings:
+## Autosplitter Settings
  
 Make sure you have already downloaded Livesplit.
 
@@ -23,19 +23,19 @@ Start Time Setting:
 
 Whether you do an Any% speedrun or a single Stage speedrun, set **Start Timer at:** to -1.70.
 
-Any%:
+## Any%
 
 If you do an Any% Speedrun, please make sure your Livesplit have 60 splits. You can download Feeding Frenzy 2 Any% Splits [here](https://www.speedrun.com/feeding_frenzy_2_shipwreck_showdown/resources), Autosplitter will automatically segment once at the beginning of each level when it is loaded.
 
-Individual Stage:
+## Individual Stage
 
 If you do an individual stage Speedrun in normal mode, please check **Single Stage Split** in **Settings** of Autosplitter and keep your Livesplit with only one split (or right-click on the Livesplit page and select **Close Splits**, but this will require you to re-fill the information in **Edit Splits**). You can submit the individual stage Speedrun from an Any% Speedrun to the Level Leaderboard.
 
-Reset Function:
+## Reset Function
 
 Reset function is activated by default, which means timer will reset once you return to the main menu. If you do not need the function, you can uncheck Reset in Settings of Autosplitter in Splits Editor.
 
-Other Information: 
+## Other Information
 
 Autosplitter is not necessary, if you don't need Autosplitter you can deactive it. You can still manually time your run with or without Livesplit (Moderator will retime your run manually), but we still recommend you to use it to finish your speedrun to make it easier for moderators to check your time.
 
