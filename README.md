@@ -19,7 +19,7 @@ Open the game, **then** open Livesplit. There are two ways to set Autosplitter.
 
 P.S. Only one of the two methods can be chosen, otherwise the segmentation may occur twice.
 
-Start Time Setting:
+## Start Time Setting
 
 Whether you do an Any% speedrun or a single Stage speedrun, set **Start Timer at:** to -1.70.
 
