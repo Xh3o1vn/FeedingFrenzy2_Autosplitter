@@ -4,25 +4,25 @@ state("popcapgame1", "Steam")
     int stage : "popcapgame1.exe", 0x1AC624, 0x3C, 0x28;
     sbyte normalModeStage : "popcapgame1.exe", 0x1AC624, 0xB4, 0x48;
     sbyte timeAttackModeStage : "popcapgame1.exe", 0x1AC624, 0xB4, 0x68;
-    bool isMenu : "popcapgame1.exe", 0x1AC624, 0x28, 0xE4;
-    bool isStageMap : "popcapgame1.exe", 0x1AC624, 0x84, 0xE4;
-    string40 stageLoading : "popcapgame1.exe", 0x1AC624, 0x84, 0x10C, 0x50, 0x9C, 0x0;
+    bool isInMenu : "popcapgame1.exe", 0x1AC624, 0x28, 0xE4;
+    bool isInStageMap : "popcapgame1.exe", 0x1AC624, 0x84, 0xE4;
+    string5 stageLoading : "popcapgame1.exe", 0x1AC624, 0x84, 0x10C, 0x50, 0x9C, 0x0;
 }
 
-state("FeedingFrenzy2", "Other")
+state("FeedingFrenzy2", "unknown version")
 {
     int foodBank : "FeedingFrenzy2.exe", 0x1AC624, 0xB4, 0x38;
     int stage : "FeedingFrenzy2.exe", 0x1AC624, 0x3C, 0x28;
     sbyte normalModeStage : "FeedingFrenzy2.exe", 0x1AC624, 0xB4, 0x48;
     sbyte timeAttackModeStage : "FeedingFrenzy2.exe", 0x1AC624, 0xB4, 0x68;
-    bool isMenu : "FeedingFrenzy2.exe", 0x1AC624, 0x28, 0xE4;
-    bool isStageMap : "FeedingFrenzy2.exe", 0x1AC624, 0x84, 0xE4;
-    string40 stageLoading : "FeedingFrenzy2.exe", 0x1AC624, 0x84, 0x10C, 0x50, 0x9C, 0x0;
+    bool isInMenu : "FeedingFrenzy2.exe", 0x1AC624, 0x28, 0xE4;
+    bool isInStageMap : "FeedingFrenzy2.exe", 0x1AC624, 0x84, 0xE4;
+    string5 stageLoading : "FeedingFrenzy2.exe", 0x1AC624, 0x84, 0x10C, 0x50, 0x9C, 0x0;
 }
 
 startup
 {
-    settings.Add("SingleStage", false, "Single Stage Split");
+    settings.Add("IndividualStage", false, "Individual Stage Split");
 }
 
 init
@@ -34,13 +34,13 @@ init
 
     else
     {
-        version = "Other";
+        version = "unknown version";
     }
 }
 
 start
 {
-    if (current.isStageMap)
+    if (current.isInStageMap)
     {
         return ((current.normalModeStage != -1 || current.timeAttackModeStage != -1) && !current.stageLoading.Contains("Click"));
     }
@@ -61,7 +61,7 @@ split
     }
 
     // Single Stage End
-    if (settings["SingleStage"])
+    if (settings["IndividualStage"])
     {
         return (current.stage > old.stage);
     }
@@ -69,7 +69,7 @@ split
 
 reset
 {
-    if (current.isMenu)
+    if (current.isInMenu)
     {
         return true;
     }
