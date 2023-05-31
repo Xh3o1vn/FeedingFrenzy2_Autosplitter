@@ -19,7 +19,7 @@ P.S. Only choose either of the two methods, otherwise the segmentation may occur
 
 ## Start Time Setting
 
-Start Timer at: should be set to -1.70 for both the Any% Speedrun and Individual Stage Speedrun.
+**Start Timer at:** should be set to -1.70 for both the Any% Speedrun and Individual Stage Speedrun.
 
 ## Any%
 
