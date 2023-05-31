@@ -60,7 +60,7 @@ split
         return (current.foodBank > old.foodBank);
     }
 
-    // Single Stage End
+    // Individual Stage End
     if (settings["IndividualStage"])
     {
         return (current.stage > old.stage);
