@@ -17,10 +17,6 @@ Open the game, **then** open Livesplit. There are two ways to set the Autosplitt
 
 P.S. Only choose either of the two methods, otherwise the segmentation may occur twice.
 
-## Start Time Setting
-
-**Start Timer at:** should be set to -1.70 for both the Any% Speedrun and Individual Stage Speedrun.
-
 ## Any%
 
 If you're trying to do an Any% Speedrun, please make sure your Livesplit have 60 splits. You can download Feeding Frenzy 2 Any% Splits [here](https://www.speedrun.com/feeding_frenzy_2_shipwreck_showdown/resources), Autosplitter will automatically segment once at the beginning of each level when it is loaded.
