@@ -22,7 +22,7 @@ state("FeedingFrenzy2", "unknown version")
 
 startup
 {
-    settings.Add("IndividualStage", false, "Individual Stage Split");
+    settings.Add("IndividualLevel", false, "Individual Level Split");
 }
 
 init
@@ -48,7 +48,7 @@ start
 
 split
 {
-    // Stage Split
+    // Level Split
     if (current.stageLoading != old.stageLoading)
     {
         return true;
@@ -60,8 +60,8 @@ split
         return (current.foodBank > old.foodBank);
     }
 
-    // Individual Stage End
-    if (settings["IndividualStage"])
+    // Individual Level End
+    if (settings["IndividualLevel"])
     {
         return (current.stage > old.stage);
     }
