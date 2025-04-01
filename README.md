@@ -21,9 +21,9 @@ P.S. Only choose either of the two methods, otherwise the segmentation may occur
 
 If you're trying to do an Any% Speedrun, please make sure your Livesplit have 60 splits. You can download Feeding Frenzy 2 Any% Splits [here](https://www.speedrun.com/feeding_frenzy_2_shipwreck_showdown/resources), Autosplitter will automatically segment once at the beginning of each level when it is loaded.
 
-## Individual Stage
+## Individual Level
 
-If you're trying to do an Individual Stage Speedrun, please check **Individual Stage Split** in **Settings** of Autosplitter and keep your Livesplit with only one split (or right-click on the Livesplit page and select **Close Splits**, but this will require you to refill the information in **Edit Splits**). You can submit the Individual Stage Speedrun from an Any% Speedrun to the Level Leaderboard.
+If you're trying to do an Individual Level Speedrun, please check **Individual Level Split** in **Settings** of Autosplitter and keep your Livesplit with only one split (or right-click on the Livesplit page and select **Close Splits**, but this will require you to refill the information in **Edit Splits**). You can submit the Individual Level Speedrun from an Any% Speedrun to the Level Leaderboard.
 
 ## Reset Function
 
